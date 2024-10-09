@@ -3,9 +3,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
-public class main {
-
-    public static void main(String[] args) {
+public class main
+{
+    public static void main(String[] args) throws Exception
+    {
         Scanner scanner = new Scanner(System.in);
         
         // Criar listas para armazenar objetos criados
