@@ -1,5 +1,7 @@
 import java.util.Date;
 
+import Classes.Aeroporto;
+
 public class PassagemAerea {
     private Aeroporto aeroportoOrigem;
     private Aeroporto aeroportoDestino;

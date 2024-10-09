@@ -3,6 +3,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
+import Classes.Aeroporto;
+
 public class main
 {
     public static void main(String[] args) throws Exception

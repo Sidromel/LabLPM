@@ -1,61 +1,65 @@
+package Classes;
 import java.util.Scanner;
 
-public class Aeroporto {
+public class Aeroporto
+{
     private String nome;
+    private String país;
     private String sigla;
     private String cidade;
     private String estado;
-    private String país;
 
-    public Aeroporto(String nome, String sigla, String cidade, String estado, String país) {
-        this.nome = nome;
-        this.sigla = sigla;
+    public Aeroporto(String nome, String país, String sigla, String cidade, String estado)
+    {
+        this.nome   = nome;
+        this.país   = país;
+        this.sigla  = sigla;
         this.cidade = cidade;
         this.estado = estado;
-        this.país = país;
     }
 
-    public String getNome() {
+    public String getNome(){
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String nome){
+        this.nome=nome;
     }
 
-    public String getSigla() {
+    public String getSigla(){
         return sigla;
     }
 
-    public void setSigla(String sigla) {
-        this.sigla = sigla;
+    public void setSigla(String sigla){
+        this.sigla=sigla;
     }
 
-    public String getCidade() {
+    public String getCidade(){
         return cidade;
     }
 
-    public void setCidade(String cidade) {
-        this.cidade = cidade;
+    public void setCidade(String cidade){
+        this.cidade=cidade;
     }
 
-    public String getEstado() {
+    public String getEstado(){
         return estado;
     }
 
-    public void setEstado(String estado) {
-        this.estado = estado;
+    public void setEstado(String estado){
+        this.estado=estado;
     }
 
-    public String getPaís() {
+    public String getPaís(){
         return país;
     }
 
-    public void setPaís(String país) {
-        this.país = país;
+    public void setPaís(String país){
+        this.país=país;
     }
 
-    public static Aeroporto CadastrarAeroporto() {
+    public static Aeroporto CadastrarAeroporto()
+    {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o nome do aeroporto: ");
@@ -77,6 +81,4 @@ public class Aeroporto {
         System.out.println("Aeroporto cadastrado com sucesso!");
         return aeroporto;
     }
-
-    
 }
