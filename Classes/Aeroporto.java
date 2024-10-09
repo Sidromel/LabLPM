@@ -9,6 +9,7 @@ public class Aeroporto
     private String cidade;
     private String estado;
 
+    //CONSTRUTOR:
     public Aeroporto(String nome, String país, String sigla, String cidade, String estado)
     {
         this.nome   = nome;
@@ -18,6 +19,7 @@ public class Aeroporto
         this.estado = estado;
     }
 
+    //SETTERES AND GETTERES:
     public String getNome(){
         return nome;
     }
@@ -58,6 +60,7 @@ public class Aeroporto
         this.país=país;
     }
 
+    // Metodo para cadastrar o aeroporto:
     public static Aeroporto CadastrarAeroporto()
     {
         Scanner scanner = new Scanner(System.in);
